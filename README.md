@@ -33,7 +33,7 @@ scikit-learn
 Data Cleaning:
 
 Overview:
-This project involves cleaning and analyzing call data from the Computer-Aided Dispatch (CAD) system. The data is sourced from two files: a CSV file (call_data_from_CAD.csv) and an Excel file (call_data_from_CAD_2022.xlsx). The cleaning focuses on identifying unique unit call signs containing specific patterns, filtering data based on certain criteria, and comparing call counts across different years.
+This script involves cleaning and analyzing call data from the Computer-Aided Dispatch (CAD) system. The data is sourced from two files: a CSV file (call_data_from_CAD.csv) and an Excel file (call_data_from_CAD_2022.xlsx). The cleaning focuses on identifying unique unit call signs containing specific patterns, filtering data based on certain criteria, and comparing call counts across different years.
 
 Files
 
@@ -66,7 +66,7 @@ Steps
 Temporal Data Analysis:
 
 Overview
-This project involves analyzing call time distribution data across hour, month and year. The data is sourced from the output of the data cleaning file: (output.csv). The analysis focuses on a data visualization of distributions and a Spearman's correlation analysis with bootstrapping. 
+This script involves analyzing call time distribution data across hour, month and year. The data is sourced from the output of the data cleaning file: (output.csv). The analysis focuses on a data visualization of distributions and a Spearman's correlation analysis with bootstrapping. 
 
 Files
 
