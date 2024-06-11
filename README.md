@@ -1,6 +1,8 @@
 # CAHOOTS
 Data analysis for class working with CAHOOTS data
 
+---------------------------------------------------------------------------
+
 This project is broken up into 3 parts:
 
 Data Cleaning
@@ -9,9 +11,9 @@ Temporal Data Analysis
 
 Location Data Analysis
 
------------------------------------------------------------------------
-
 The following README will be in that order.
+
+-----------------------------------------------------------------------
 
 Prerequisites- Python 3.X !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -25,6 +27,8 @@ scipy,
 scikit-learn
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+-----------------------------------------------------------------------
 
 Data Cleaning:
 
@@ -56,6 +60,8 @@ Steps
 -Final Cleaning
 
   Removal of years not used in analysis and formatting data of relevant dataset
+
+  -----------------------------------------------------------------------
 
 Temporal Data Analysis:
 
@@ -95,6 +101,8 @@ Steps
 -Spearman's Correlation Analysis
 
   Bootstrapping and confidence interval for correlation analysis, results are shown on subplots
+
+  -----------------------------------------------------------------------
 
 Location Data Analysis:
 
