@@ -8,7 +8,7 @@ Location Data Analysis
 
 The following README will be in that order.
 
-Prerequisites
+Prerequisites- Python 3.X
 Ensure you have the following Python libraries installed:
 
 pandas
@@ -51,7 +51,7 @@ Files
 output.csv: The main CSV file containing the call data.
 Steps
 -Loading Data
-  Read the CSV and Excel files into pandas DataFrames.
+  Read the CSV file into pandas DataFrame.
 -Plotting of Distributions for Hour, Year and Month
   Seaborn countplots are made for the call time distribution for months, hours, and years in the data
 -Plotting of Hour and Month by Each Year
@@ -66,6 +66,21 @@ Steps
   Bootstrapping and confidence interval for correlation analysis, results are shown on subplots
 
 Location Data Analysis:
+Overview
+This script performs a detailed analysis of call data from a CAD (Computer-Aided Dispatch) system, focusing on various metrics such as call distribution by zip code, hourly and monthly trends, and the correlation of call percentage changes across different years and zip codes.
 
+Files
+output.csv: The main CSV file containing the call data.
+Steps
+-Loading Data
+  Read the CSV file into pandas DataFrame.
+-Plot Distribution of Zip Codes Across Years (Cleaning)
+  Filter zip codes that do not contain relevant years for analysis
+-Plotting of Hour and Month by Each Zip Code
+  Seaborn lineplots are made to show more detail between distributions as they change over zip codes
+-Spearman's Correlation Analysis
+  Bootstrapping and confidence interval for correlation analysis, results are shown on subplots
+  
+  
 
 
