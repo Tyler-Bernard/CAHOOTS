@@ -2,8 +2,11 @@
 Data analysis for class working with CAHOOTS data
 
 This project is broken up into 3 parts:
+
 Data Cleaning
+
 Temporal Data Analysis 
+
 Location Data Analysis
 
 The following README will be in that order.
