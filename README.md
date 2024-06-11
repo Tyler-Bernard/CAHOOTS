@@ -8,16 +8,16 @@ Location Data Analysis
 
 The following README will be in that order.
 
-Prerequisites- Python 3.X
+Prerequisites- Python 3.X !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Ensure you have the following Python libraries installed:
 
-pandas
-numpy
-seaborn
-matplotlib
-scipy
+pandas,
+numpy,
+seaborn,
+matplotlib,
+scipy,
 scikit-learn
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Data Cleaning:
 
