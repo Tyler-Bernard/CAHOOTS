@@ -1,4 +1,5 @@
 # CAHOOTS
+Data analysis for class working with CAHOOTS data
 
 This project is broken up into 3 parts:
 Data Cleaning
@@ -19,21 +20,28 @@ scikit-learn
 
 
 Data Cleaning:
-Overview
+
+Overview:
 This project involves cleaning and analyzing call data from the Computer-Aided Dispatch (CAD) system. The data is sourced from two files: a CSV file (call_data_from_CAD.csv) and an Excel file (call_data_from_CAD_2022.xlsx). The cleaning focuses on identifying unique unit call signs containing specific patterns, filtering data based on certain criteria, and comparing call counts across different years.
 
 Files
+
 "insert data here".csv: Contains call data from previous years.
 "insert data here".xlsx: Contains call data specifically from the year 2022.
 output.csv: The output CSV file containing cleaned and filtered call data.
 Steps
+
 -Loading Data
+
   Read the CSV and Excel files into pandas DataFrames.
 -Pre-cleaning
+
   Removal of unnessesary characters and locating associated call signs
 -Checking usefulness of small CAD dataset (2022-2023)
+
   Ratio analysis of the total call count between datasets
 -Final Cleaning
+
   Removal of years not used in analysis and formatting data of relevant dataset
 
 Temporal Data Analysis:
@@ -61,5 +69,3 @@ Location Data Analysis:
 
 
 
-
-Data analysis for class working with CAHOOTS data
