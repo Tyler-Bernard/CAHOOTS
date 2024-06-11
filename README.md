@@ -27,8 +27,11 @@ This project involves cleaning and analyzing call data from the Computer-Aided D
 Files
 
 "insert data here".csv: Contains call data from previous years.
+
 "insert data here".xlsx: Contains call data specifically from the year 2022.
+
 output.csv: The output CSV file containing cleaned and filtered call data.
+
 Steps
 
 -Loading Data
